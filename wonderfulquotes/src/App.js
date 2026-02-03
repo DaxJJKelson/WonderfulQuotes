@@ -8,7 +8,7 @@ function App() {
   function addQuoteHandler(quoteText, author) {
     const newQuote = {
       text: quoteText,
-      author: author || "Anonymous",
+      author: author || "Anonymous", // Default author if none provided
       date: new Date().toLocaleDateString(),
     };
 
