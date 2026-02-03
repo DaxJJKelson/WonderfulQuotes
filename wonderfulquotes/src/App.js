@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Quotes from "./components/Quotes/Quotes";
+import Quotes from "./components/UI/Quotes";
 import NewQuote from "./components/NewQuote/NewQuote";
 
 function App() {
