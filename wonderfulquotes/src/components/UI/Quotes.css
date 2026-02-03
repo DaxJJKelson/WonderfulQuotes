@@ -19,3 +19,16 @@
   font-size: 0.9rem;
   color: gray;
 }
+.delete-btn {
+  margin-top: 0.5rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #b52a37;
+}

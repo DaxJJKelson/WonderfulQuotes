@@ -14,11 +14,16 @@ function App() {
 
     setQuotes((prevQuotes) => [...prevQuotes, newQuote]);
   }
+  function deleteQuoteHandler(indexToDelete) {
+    setQuotes((prevQuotes) =>
+      prevQuotes.filter((_, index) => index !== indexToDelete),
+    );
+  }
   return (
     <div>
       <h1>Quote Board</h1>
       <NewQuote onAddQuote={addQuoteHandler} />
-      <Quotes quotes={quotes} />
+      <Quotes quotes={quotes} onDeleteQuote={deleteQuoteHandler} />
     </div>
   );
 }
