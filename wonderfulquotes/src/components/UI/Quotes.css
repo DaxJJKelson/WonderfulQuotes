@@ -1,0 +1,21 @@
+.quotes {
+  margin-top: 1rem;
+}
+
+.quote-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: gray;
+}
